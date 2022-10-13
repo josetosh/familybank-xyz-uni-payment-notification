@@ -1,0 +1,14 @@
+## YAML Template.
+---
+server:
+    port: 7072
+    
+management:
+    endpoints:
+        web:
+            exposure:
+                enabled: "*"
+    
+spring:
+    application:
+        name: familybank-xyz-uni-payment-notification
